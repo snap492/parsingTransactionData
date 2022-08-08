@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Path path = Paths.get("D:\\torrents\\SkillBox - Java-разработчик\\09.Работа с файлами и сетью\\9.9 Домашняя работа 9.3\\movementList.csv");
+        Path path = Paths.get("source/movementList.csv");
         try {
             List<String> lines = Files.readAllLines(path);
             Parser parser = new Parser();
